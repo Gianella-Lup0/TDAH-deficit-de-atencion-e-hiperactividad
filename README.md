@@ -5,7 +5,7 @@ Grupo conformado por:
 - Melany Jofré
 - Gianella Lupo
 - Juliana Ortiz
-!-- Agregar objetivo de desarrollo sostenible --
+
 # Temática: Educación (TDAH, deficit de atencion e hiperactividad)
 Centers for Disease Control and Prevention (CDC)
 - Casi el 78% de los niños con TDAH tienen al menos otra condición coexistente, como problemas de conducta (aproximadamente la mitad) o ansiedad (alrededor del 40%)​
