@@ -1,0 +1,112 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65%;
+    color: #bfbfbf;
+}
+
+body {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+/*INDEX.HTML*/
+/* Barra de navegación */
+header {
+    background-color: rgb(243 243 243 / 63%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a.activo {
+    color: rgb(118 180 190);
+}
+
+a{
+    margin: 20px;
+}
+
+p{
+    padding: 2rem;
+}
+
+/* Info general de TDAH */
+.sec1{
+background-color: rgb(207 207 207 / 40%);
+}
+
+.parrafo{
+    color:#151515;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.contenedor{
+    margin-top: 1rem;
+    margin-inline: 8rem;
+    padding: 1rem;
+    background-color: rgba(130, 190, 194, 0.59);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text-color{
+    color: #ffffff;
+    padding: 1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.li-color{
+    color: white;
+    padding: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+/*RECURSOS.HTML*/
+.h2-class{
+    color:#151515;
+    text-align: center;
+    padding: 1rem;
+}
+
+.p-class{
+    color:#151515;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.li-class{
+    color: white;
+    padding: 0.5rem;
+    padding-left: 5rem;
+}
+
+footer{
+    background-color: rgb(243 243 243 / 63%);
+    text-align: center;
+    padding: 1rem;
+    color: #222222;
+}
+.footer-class{
+    padding: 0rem;
+}
