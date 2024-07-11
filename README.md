@@ -20,7 +20,10 @@ Centers for Disease Control and Prevention (CDC)
 - Ideamos una solución: Crearemos un sitio informativo sobre el TDAH, proporcionando recursos educativos y estrategias prácticas para concientizar y apoyar a quienes lo visiten sobre el impacto del TDAH y cómo gestionarlo de manera efectiva.
 
 # Diseñamos un prototipo:
-- Herramientas: Wireframe o Miro para prototipos digitales, o lápiz y papel para un boceto inicial. (https://wireframe.cc/5FNUwp)
+Herramientas: Wireframe o Miro para prototipos digitales, o lápiz y papel para un boceto inicial.
+- Inicio: https://wireframe.cc/5FNUwp
+- Foros: https://wireframe.cc/uURfeH
+- Contacto: https://wireframe.cc/UpcjAh
 
 Elementos clave del sitio:
 - Inicio: Información general sobre el TDAH.
