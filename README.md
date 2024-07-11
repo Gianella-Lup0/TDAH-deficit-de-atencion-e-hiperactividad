@@ -20,9 +20,9 @@ Centers for Disease Control and Prevention (CDC)
 - Ideamos una solución: Crearemos un sitio informativo sobre el TDAH, proporcionando recursos educativos y estrategias prácticas para concientizar y apoyar a quienes lo visiten sobre el impacto del TDAH y cómo gestionarlo de manera efectiva.
 
 # Objetivo de Desarrollo Sostenible
-- 3 Salud y bienestar
-- 4 Educación de calidad
-- 10 Reducción de las desigualdades
+- 3 - Salud y bienestar
+- 4 - Educación de calidad
+- 10 - Reducción de las desigualdades
 
 # Diseñamos un prototipo:
 Herramientas: Wireframe o Miro para prototipos digitales, o lápiz y papel para un boceto inicial.
