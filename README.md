@@ -19,6 +19,11 @@ Centers for Disease Control and Prevention (CDC)
 - Definimos público objetivo: Jóvenes de 13 a 18 años que forman parte de la comunidad estudiantil de secundaria en Buenos Aires, abarcando una diversidad de escuelas y contextos socioeconómicos, con un enfoque en sus necesidades educativas y de apoyo psicológico.
 - Ideamos una solución: Crearemos un sitio informativo sobre el TDAH, proporcionando recursos educativos y estrategias prácticas para concientizar y apoyar a quienes lo visiten sobre el impacto del TDAH y cómo gestionarlo de manera efectiva.
 
+# Objetivo de Desarrollo Sostenible
+- 3 Salud y bienestar
+- 4 Educación de calidad
+- 10 Reducción de las desigualdades
+
 # Diseñamos un prototipo:
 Herramientas: Wireframe o Miro para prototipos digitales, o lápiz y papel para un boceto inicial.
 - Inicio: https://wireframe.cc/5FNUwp
