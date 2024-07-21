@@ -18,7 +18,7 @@ body {
 /*INDEX.HTML*/
 /* Barra de navegación */
 header {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(243 243 243 / 63%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ nav a{
 }
 
 nav a.activo {
-    color: rgba(255, 135, 15, 0.791);
+    color: rgb(218, 143, 69);
 }
 
 a{
@@ -73,7 +73,7 @@ main {
     text-align: center;
     margin: 0.5rem;
     font-size: 1.9rem;
-    color: #be894b;
+    color: #75b5c1;
 }
 
 p{
@@ -98,7 +98,7 @@ p{
 .comments h3 {
     margin: 0.2rem;
     font-size: 1.5rem;
-    color: rgba(255, 135, 15, 0.791);
+    color: #75b5c1;
 }
 
 .comment {
@@ -116,7 +116,7 @@ p{
 .comment-form h3 {
     margin: 0.2rem;
     font-size: 1.5rem;
-    color: rgba(255, 135, 15, 0.791);
+    color: #75b5c1;
 }
 
 .comment-form textarea {
@@ -131,7 +131,7 @@ p{
 }
 
 .comment-form button {
-    background-color: #a84300;
+    background-color: #344166;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -141,7 +141,7 @@ p{
 }
 
 .comment-form button:hover {
-    background-color: #9a7757;
+    background-color: #57699a;
 }
 
 footer{

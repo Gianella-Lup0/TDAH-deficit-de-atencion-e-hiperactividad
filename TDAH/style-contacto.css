@@ -30,17 +30,13 @@ nav a{
     color: rgb(0, 0, 0);
 }
 
-nav a.activo {
-    color: rgba(255, 135, 15, 0.791);
-}
-
 a{
     margin: 0px;
     text-decoration: none;
 }
 
 .a-deco{
-    color: rgba(255, 135, 15, 0.791);
+    color: #75b5c1;
 }
 
 /* Barra de navegación */
@@ -60,7 +56,7 @@ nav a{
 }
 
 nav a.activo {
-    color: rgba(255, 135, 15, 0.791);
+    color: rgb(218, 143, 69);
 }
 
 main {
@@ -82,7 +78,7 @@ main {
 }
 
 section h2 {
-    color: rgba(255, 135, 15, 0.791);
+    color: #75b5c1;
     margin-top: 0;
     font-size: 1.9rem;
 }
@@ -106,7 +102,7 @@ strong {
 }
 
 .strong-color{
-    color: rgba(255, 132, 0, 0.589);
+    color: rgb(49, 112, 112);
 }
 
 @media (max-width: 600px) {

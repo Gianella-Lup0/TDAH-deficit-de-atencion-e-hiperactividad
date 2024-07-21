@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TDAH</title>
     <link rel="stylesheet" href="style-foro.css">
-    <link rel="icon" type="image/x-icon" href=img\logo\logo2.jpeg>
-
 </head>
 <body>
     
     <header>
-        <h1><img src="img\logo\logo2.jpeg" alt="logo" width="250px"></h1>
+        <h1><img src="img/logo/logo-tdah-.png" alt="logo" width="250px"></h1>
         <nav>
             <a href="index.html">Inicio</a>
             <a href="recursos.html">Recursos</a>
@@ -25,14 +23,15 @@
         <main>
             <section class="forum">
                 <article class="post">
-                    <h2>¿Cómo gestionar el TDAH?</h2>
-                    <p class="author">Juan Pérez:</p>
-                    <p>Hola, soy Juan, fui diagnosticado con TDAH y quisiera compartir algunas estrategias que me han ayudado a gestionar mi hiperactividad.<br>
-                    En primer lugar, me resultó fundamental establecer una rutina diaria. Tener una estructura clara me ayudó a organizar las actividades del día. Además, mi psicóloga me dijo que es útil implementar técnicas de refuerzo positivo y gracias a eso, ahora estoy consiguiendo no distraerme tan fácil!<br>
-                    ¿Alguien más tiene experiencias similares? Pasen sus tips.</p>
-
+                    <h2>Contános tu experiencia</h2>
                     <div class="comments">
-                        <h3>Comentarios:</h3>
+                        <div class="comment">
+                            <p class="author">Juan Pérez:</p>
+                            <p>Hola, soy Juan, fui diagnosticado con TDAH y quisiera compartir algunas estrategias que me han ayudado a gestionar mi hiperactividad.<br>
+                            En primer lugar, me resultó fundamental establecer una rutina diaria. Tener una estructura clara me ayudó a organizar las actividades del día. Además, mi psicóloga me dijo que es útil implementar técnicas de refuerzo positivo y gracias a eso, ahora estoy consiguiendo no distraerme tan fácil!<br>
+                            ¿Alguien más tiene experiencias similares? Pasen sus tips.</p>
+                        </div>
+
                         <div class="comment">
                             <p class="author">María López:</p>
                             <p>Yo tengo un amigo con TDAH y coincido en que las rutinas ayudan mucho, imaginate que estar cursando ingienería no es fácil jajaja.<br>
@@ -46,9 +45,10 @@
                     </div>
                 </article>
 
-                <form class="comment-form">
+                <form class="comment-form" id="comment-form">
                     <h3>Deja tu comentario:</h3>
-                    <textarea name="comment" id="comment" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+                    <input type="text" name="author" id="author" placeholder="Tu nombre" required>
+                    <textarea name="comment" id="comment" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
                     <button type="submit">Enviar</button>
                 </form>
             </section>
@@ -58,5 +58,7 @@
     <footer>
         <p>&copy; 2024 TDAH Todos los derechos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

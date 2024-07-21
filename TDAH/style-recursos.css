@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65%;
+    color: #bfbfbf;
+}
+
+body {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+/* Barra de navegación */
+header {
+    background-color: rgb(243 243 243 / 63%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+nav a.activo {
+    color: rgb(218, 143, 69);
+}
+
+a{
+    margin: 0px;
+}
+
+p{
+    padding: 0rem;
+    color: #706f6f;
+}
+
+.sect-color {
+    background-color: rgb(207 207 207 / 40%);
+    padding: 20px;
+}
+
+/* Estilos principales */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1188aa; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resource ul {
+    list-style-type: none;
+}
+
+.resource li {
+    background-color: #78b5c124; 
+    margin: 10px;
+    padding: 15px;
+    border-left: 5px solid #75b5c1;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.resource li h4 {
+    color: #1188aa;
+    margin-bottom: 10px;
+}
+
+.resource li p {
+    margin-bottom: 10px;
+}
+
+.resource li a {
+    color: #11aa8e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resource li a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(243 243 243 / 63%);
+    text-align: center;
+    padding: 1rem;
+    color: #222222;
+}
+.footer-class{
+    padding: 0rem;
+}

@@ -15,10 +15,9 @@ body {
     text-decoration: none;
 }
 
-/*INDEX.HTML*/
 /* Barra de navegación */
 header {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(243 243 243 / 63%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +31,7 @@ nav a{
 }
 
 nav a.activo {
-    color: rgb(255, 156, 58);
+    color: rgb(218, 143, 69);
 }
 
 a{
@@ -58,7 +57,7 @@ background-color: rgb(207 207 207 / 40%);
     margin-top: 1rem;
     margin-inline: 8rem;
     padding: 1rem;
-    background-color: rgba(255, 135, 15, 0.791);
+    background-color: rgba(130, 190, 194, 0.59);
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
