@@ -15,10 +15,9 @@ body {
     text-decoration: none;
 }
 
-/*INDEX.HTML*/
 /* Barra de navegación */
 header {
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +31,7 @@ nav a{
 }
 
 nav a.activo {
-    color: rgb(218, 143, 69);
+    color: rgba(58, 156, 163, 0.852);
 }
 
 a{
@@ -44,12 +43,12 @@ p{
 }
 
 .sec1{
-background-color: rgb(207 207 207 / 40%);
+background-color: rgb(207 206 206 / 63%);
 }
 
 /*FOROS.HTML*/
 .foro-background{
-    background-color: rgb(207 207 207 / 40%);
+    background-color: rgb(207 206 206 / 63%);
 }
 
 main {
@@ -59,7 +58,7 @@ main {
 }
 
 .forum {
-    background-color: #fff;
+    background-color: #f9f9f9cc;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -73,7 +72,7 @@ main {
     text-align: center;
     margin: 0.5rem;
     font-size: 1.9rem;
-    color: #75b5c1;
+    color: #1188aa;
 }
 
 p{
@@ -116,7 +115,18 @@ p{
 .comment-form h3 {
     margin: 0.2rem;
     font-size: 1.5rem;
-    color: #75b5c1;
+    color: #1188aa;
+}
+
+.nombre{
+width: 98%;
+padding: 0.5rem;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+line-height: 1.4;
 }
 
 .comment-form textarea {
@@ -131,7 +141,7 @@ p{
 }
 
 .comment-form button {
-    background-color: #344166;
+    background-color: #75b5c1;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -141,11 +151,11 @@ p{
 }
 
 .comment-form button:hover {
-    background-color: #57699a;
+    background-color: #4d929e;
 }
 
 footer{
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     text-align: center;
     padding: 1rem;
     color: #222222;

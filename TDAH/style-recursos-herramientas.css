@@ -17,7 +17,7 @@ body {
 
 /* Barra de navegación */
 header {
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +32,7 @@ nav a{
 }
 
 nav a.activo {
-    color: rgb(218, 143, 69);
+    color: rgba(58, 156, 163, 0.852);
 }
 
 a{
@@ -41,11 +41,11 @@ a{
 
 p{
     padding: 0rem;
-    color: #706f6f;
+    color: #151515;
 }
 
 .sect-color {
-    background-color: rgb(207 207 207 / 40%);
+    background-color: rgb(207 206 206 / 63%);
     padding: 20px;
 }
 
@@ -54,7 +54,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9cc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -70,17 +70,15 @@ h2 {
 }
 
 .resource li {
-    background-color: #78b5c124; 
     margin: 10px;
     padding: 15px;
-    border-left: 5px solid #75b5c1;
-    border-radius: 15px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: 3px solid rgba(130, 190, 194, 0.59);
 }
 
 .resource li h4 {
-    color: #1188aa;
-    margin-bottom: 5px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
 }
 
 .resource li p {
@@ -88,13 +86,9 @@ h2 {
 }
 
 .resource li a {
-    color: #11aa8e;
+    color: #1188aa;
     text-decoration: none;
     font-weight: bold;
-}
-
-.resource .mas{
-    color: #97989b; 
 }
 
 .resource li a:hover {
@@ -102,7 +96,7 @@ h2 {
 }
 
 footer{
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     text-align: center;
     padding: 1rem;
     color: #222222;

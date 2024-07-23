@@ -13,11 +13,11 @@ html {
 body {
     font-size: 1.6rem;
     text-decoration: none;
-    background-color: rgb(207 207 207 / 40%);
 }
+
 /* Barra de navegación */
 header {
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,92 +28,83 @@ nav a{
     align-items: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+nav a.activo {
+    color: rgba(58, 156, 163, 0.852);
 }
 
 a{
     margin: 0px;
-    text-decoration: none;
 }
 
-.a-deco{
-    color: #75b5c1;
+p{
+    padding: 0rem;
+    color: #151515;
 }
 
-/* Barra de navegación */
-header {
-    background-color: rgb(243 243 243 / 63%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+.sect-color {
+    background-color: rgb(207 206 206 / 63%);
+    padding: 20px;
 }
 
-nav a{
-    align-items: center;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-}
-
-nav a.activo {
-    color: rgb(218, 143, 69);
-}
-
+/* Estilos principales */
 main {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-}
-
-.sect-color{
-    background-color: rgb(207 207 207 / 40%);
-}
-
-.section-cont {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    background-color: #f9f9f9cc;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #75b5c1;
-    margin-top: 0;
-    font-size: 1.9rem;
+h2 {
+    color: #1188aa; 
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-section p,
-section ul {
-    margin: 10px 0;
-    color: #515151;
+ul {
+    list-style-type: none;
 }
 
-section ul {
-    padding-left: 20px;
+li{
+    color: #151515;
 }
 
-section ul li {
-    list-style-type: disc;
+.section-cont {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 3px solid rgba(130, 190, 194, 0.59);
 }
 
-strong {
-    color: #1d1d1d8f;
+h4 {
+    color: #4a4a4a;
+    margin-bottom: 10px;
 }
 
-.strong-color{
-    color: rgb(49, 112, 112);
+p {
+    margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    main {
-        padding: 0 10px;
-    }
+.a-deco {
+    color: #1188aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer{
-    background-color: rgb(243 243 243 / 63%);
+    background-color: rgb(207 206 206 / 43%);
     text-align: center;
     padding: 1rem;
     color: #222222;
+}
+.footer-class{
+    padding: 0rem;
 }
