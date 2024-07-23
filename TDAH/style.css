@@ -45,6 +45,15 @@ p{
 /* Info general de TDAH */
 .sec1{
 background-color: rgb(207 206 206 / 63%);
+padding: 20px;
+}
+
+main{
+    max-width: 1000px;
+    background-color: #f9f9f9cc;
+    margin-inline: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .parrafo{
@@ -85,4 +94,14 @@ ul{
     margin-left: 0.5rem;
     list-style-type: none;
 
+}
+
+footer{
+    background-color: rgb(207 206 206 / 43%);
+    text-align: center;
+    padding: 1rem;
+    color: #222222;
+}
+.footer-class{
+    padding: 0rem;
 }
