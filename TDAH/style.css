@@ -63,6 +63,7 @@ main{
 }
 
 .contenedor{
+    margin: 20px;
     margin-top: 1rem;
     margin-inline: 8rem;
     padding: 1rem;
