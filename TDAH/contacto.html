@@ -20,75 +20,67 @@
         </nav>
     </header>
 
-    <!-- Añadi un formulario de suscripción -->
-    <section class="sect-color">
-        <main>
-                <h2>Formulario</h2>
-            <section class="section-cont">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="name">Nombre:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Correo electrónico:</label>
-                            <input type="email" id="email" name="email" required>
-                
-                        </div>
-                        <div class="form-group">
-                            <label for="interest">Temas de interés:</label>
-                            <select id="interest" name="interest" required>
-                                <option value="">Selecciona una opción:</option>
-                                <option value="metodos-estudio">Métodos de estudio</option>
-                                <option value="apps-interactivas">Aplicaciones interactivas</option>
-                                <option value="ambos">Ambos</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="frequency">Frecuencia de las notificaciones:</label>
-                            <select id="frequency" name="frequency" required>
-                            <option value="">Selecciona una opción:</option>
-                            <option value="dia-por-medio">Día por medio</option>
-                            <option value="semanal">Semanal</option>
-                            <option value="mensual">Mensual</option>
-            </select>
-        </div>
-        <button type="submit">Suscribirse</button>
-    </form> 
-            </section>
-        </main>  
-    </section>
+    <!-- Contenedor general -->
+    <div class="main-container">
 
-    <!-- Contactos para los hospitales -->
-    <section class="sect-color">
+        <!-- Formulario de contacto -->
+        <section class="contact-form">
+            <h2>Formulario</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Temas de interés:</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Selecciona una opción:</option>
+                        <option value="metodos-estudio">Métodos de estudio</option>
+                        <option value="apps-interactivas">Aplicaciones interactivas</option>
+                        <option value="ambos">Ambos</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="frequency">Frecuencia de las notificaciones:</label>
+                    <select id="frequency" name="frequency" required>
+                        <option value="">Selecciona una opción:</option>
+                        <option value="dia-por-medio">Día por medio</option>
+                        <option value="semanal">Semanal</option>
+                        <option value="mensual">Mensual</option>
+                    </select>
+                </div>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
 
-        <main>
+        <!-- Contenedor para los dos bloques alineados -->
+        <div class="hospital-container">
+            <!-- Hospital General de Niños Pedro de Elizalde -->
+            <section class="hospital1">
                 <h2>Hospital General de Niños Pedro de Elizalde</h2>
-            <section class="section-cont">
                 <p><strong>Dirección:</strong> Av. Manuel A. Montes de Oca 40 (Barracas) CABA</p>
                 <p><strong>Especialidades:</strong> Pediatría, Salud Mental, Neurología, Psicología, Clínica Médica</p>
                 <p><strong>Horario de atención:</strong> Lunes a Viernes de 7:00 a 16:00 hs (guardia 24 hs)</p>
-                <p><strong>Turnos:</strong> Por teléfono y WhatsApp en el horario de atención.<br>
-                Si es presencial llevar:</p>
+                <p><strong>Turnos:</strong> Por teléfono y WhatsApp en el horario de atención.</p>
                 <ul>
                     <li>- Documento de Identidad (DNI)</li>
                     <li>- Carnet de afiliado (si tiene Obra Social)</li>
                     <li>- Orden de derivación del médico de cabecera (en caso de ser afiliado a PAMI)</li>
                 </ul>
-                <br>
-                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospital-pedro-de-elizalde/turnos" target="_blank"><strong class="strong-color">Contacto</strong></a></p>
-                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospital-pedro-de-elizalde/contacto-hospital-general" target="_blank"><strong class="strong-color">Cómo llegar</strong></a></p>
+                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospital-pedro-de-elizalde/turnos" target="_blank">Contacto</a></p>
+                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitales-y-establecimientos-de-salud/hospital-pedro-de-elizalde/contacto-hospital-general" target="_blank">Cómo llegar</a></p>
             </section>
-        </main>  
-    </section>
 
-    <section class="sect-color">
-        <main> 
-            <h2>Hospital General de Niños Ricardo Gutiérrez</h2>
-            <section class="section-cont">
+            <!-- Hospital General de Niños Ricardo Gutiérrez -->
+            <section class="hospital2">
+                <h2>Hospital General de Niños Ricardo Gutiérrez</h2>
                 <p><strong>Dirección:</strong> Gallo 1330 (Palermo) CABA</p>
                 <p><strong>Especialidades:</strong> Adolescencia, Neurología, Unidad de Salud Mental, Clínica Pediátrica</p>
-                <p><strong>Horario de atención:</strong> guardia 24 hs</p>
+                <p><strong>Horario de atención:</strong> Guardia 24 hs</p>
                 <p><strong>Turnos:</strong></p>
                 <ul>
                     <li>- <a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitalgutierrez/servicios-medicos/adolescencia" target="_blank">Adolescencia</a></li>
@@ -96,28 +88,23 @@
                     <li>- <a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitalgutierrez/unidad-de-salud-mental" target="_blank">Unidad de Salud Mental</a></li>
                     <li>- <a class="a-deco" href="https://buenosaires.gob.ar/salud/hospitalgutierrez/unidad-7-clinica-pediatrica-0" target="_blank">Clínica Pediátrica</a></li>
                 </ul>
-                <br>
-                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospital-de-ninos-dr-ricardo-gutierrez/como-llego" target="_blank"><strong class="strong-color">Cómo llegar</strong></a></p>
+                <p><a class="a-deco" href="https://buenosaires.gob.ar/salud/hospital-de-ninos-dr-ricardo-gutierrez/como-llego" target="_blank">Cómo llegar</a></p>
             </section>
-        </main>  
-    </section>
+        </div>
 
-    <!-- Contactos telefónicos -->
-    <section class="sect-color">
-        <main>
+        <!-- Bloque final de Teléfonos Útiles -->
+        <section class="useful-phones">
             <h2>Teléfonos útiles</h2>
-                <section class="section-num">
-                    <ul>
-                        <li><strong>1- </strong>102 (Niñez y Adolescencia)</li>
-                        <li><strong>2- </strong> 103 (Emergencias)</li>
-                        <li><strong>3- </strong> 107 (SAME)</li>
-                        <li><strong>4- </strong> 911 (Policía)</li>
-                        <li><strong>5- </strong> 144 (Violencia de género)</li>
-                        <li><strong>6- </strong> 147 (Atención ciudadana)</li>
-                    </ul>
-                </section>
-        </main>
-    </section>
+            <ul>
+                <li><strong>1- </strong>102 (Niñez y Adolescencia)</li>
+                <li><strong>2- </strong> 103 (Emergencias)</li>
+                <li><strong>3- </strong> 107 (SAME)</li>
+                <li><strong>4- </strong> 911 (Policía)</li>
+                <li><strong>5- </strong> 144 (Violencia de género)</li>
+                <li><strong>6- </strong> 147 (Atención ciudadana)</li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
         <p>&copy; 2024 TDAH Todos los derechos reservados.</p>

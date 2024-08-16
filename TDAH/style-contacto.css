@@ -44,19 +44,14 @@ p{
     color: #151515;
 }
 
-.sect-color {
+/* Contenedor principal */
+.main-container {
     background-color: rgb(207 206 206 / 63%);
-    padding: 5px;
-}
-
-/* Estilos principales */
-main {
-    max-width: 1000px;
-    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding: 20px;
-    background-color: #f9f9f9cc;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -106,9 +101,18 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Formulario de contacto */
+.contact-form {
+    max-width: 1000px;
+    margin: auto 200px;
+    padding: 20px;
+    background-color: #f9f9f9cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .subscribe-form {
     margin-top: 2rem;
-
     padding: 2rem;
     border: 2px solid rgba(130, 190, 194, 0.59);
     border-radius: 10px;
@@ -164,6 +168,44 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #4d929e;
+}
+
+/* Contenedor de hospitales */
+.hospital-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* Estilos para los bloques de hospitales */
+.hospital1 {
+    flex: 1;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hospital2 {
+    flex: 1;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los teléfonos útiles */
+.useful-phones {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer{
