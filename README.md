@@ -41,3 +41,26 @@ Elementos clave del sitio:
 - Fase 3: Lanzamiento y promoción en redes sociales y comunidades locales.
 
 Esta iniciativa puede ayudar a aumentar la concientización y proporcionar soporte crucial para quienes se enfrentan al TDAH en Buenos Aires. 
+
+# Comportamientos aplicados en los archivos .js
+El comportamiento que estamos implementando mediante el código JavaScript en el foro tiene como objetivo manejar la adición de nuevos comentarios por parte de los usuarios de manera dinámica sin necesidad de recargar la página.
+
+Captura del evento de envío del formulario:
+- Se utiliza document.getElementById('comment-form').addEventListener('submit', function(event) {...}) para añadir un event listener al formulario con el ID comment-form. Este listener captura el evento de "submit" (envío) del formulario.
+
+Prevención del comportamiento predeterminado:
+- La función event.preventDefault(); se llama inmediatamente al inicio de la función asociada al evento. Esto previene el comportamiento predeterminado del formulario, que sería enviar los datos al servidor y recargar la página. En su lugar, se va a manejar el envío dentro del propio navegador.
+
+Extracción y validación de datos:
+- Los valores del comentario y del nombre del autor se extraen de los campos de texto correspondientes (comment y author) utilizando document.getElementById('comment').value y document.getElementById('author').value. Luego, se valida que ambos campos no estén vacíos utilizando la función .trim(), que elimina los espacios en blanco al principio y al final de los textos. Si ambos campos contienen texto, se procede a agregar el nuevo comentario.
+
+Creación y adición del nuevo comentario:
+- Se selecciona el contenedor de los comentarios existente en la página mediante document.querySelector('.comments').
+- Se crea un nuevo elemento <"div"> que representará el nuevo comentario, utilizando document.createElement('div').
+- Se le asigna la clase CSS comment para mantener la consistencia de estilo.
+- Dentro de este nuevo <"div">, se crean dos párrafos <"p">; uno para el autor (author) con la clase author, y otro para el comentario (comment).
+- Se les asigna el texto correspondiente.
+- Estos elementos se añaden al nuevo <"div"> que contiene el comentario, y finalmente este div se agrega al contenedor de comentarios (commentSection.appendChild(newComment)).
+
+Limpieza del formulario:
+- Una vez que el comentario ha sido añadido, se vacían los campos de texto del formulario (comment y author) para que el usuario pueda escribir otro comentario sin tener que borrar manualmente el contenido anterior.
