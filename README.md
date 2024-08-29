@@ -1,6 +1,5 @@
 # Chicas en Tecnología 2024
 Grupo conformado por:
-- Candela Cieutat
 - Gianella Lupo
 - Juliana Ortiz
 
