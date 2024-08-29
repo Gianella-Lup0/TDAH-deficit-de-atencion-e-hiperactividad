@@ -6,11 +6,13 @@
     <title>TDAH</title>
     <link rel="icon" href="img/logo/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <!-- Incluir Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <h1><img src="img/logo/logo-tdah-.png" alt="logo" width="150px"></h1>
+        <h1><a href="index.html"><img src="img/logo/logo-tdah-.png" alt="logo" width="150px"></a></h1>
         <nav>
             <a href="index.html" class="activo">Inicio</a>
             <a href="recursos.html">Recursos</a>
@@ -36,12 +38,12 @@
 
     <div class="contenedor">
         <h2 class="textcolor">¿Hay un solo tipo de TDAH?</h2>
-        <p class="text-color">No, se divide en 3 tipos:
+        <p class="text-color">No, se divide en 3 tipos: </p>  
             <ul>
                 <li class="li-color">- Presentación combinada.</li>
                 <li class="li-color">- Presentación predominantemente con falta de atención.</li>
                 <li class="li-color">- Presentación predominantemente hiperactiva/impulsiva.</li>
-            </ul>    
+            </ul>  
     </div>
 
     <p class="parrafo">Durante la escolaridad es importante informar a los maestros y profesores que se está en presencia de este trastorno, y para limitar las distracciones un buen tip es sentarse adelante o en las primeras filas de bancos. En el caso de adolescentes y adultos, su celular además debería estar apagado o en “silencio”.<br>
@@ -49,8 +51,106 @@
 </main>
 </section>
 
+<section class="sec1">
+    <main>
+
+        <h2 class="h2">Desmintiendo mitos sobre el TDAH</h2>
+        <!-- Acordeón de Bootstrap -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        "El TDAH es falta de fuerza de voluntad, les falta esforzarse más duro"
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        No, se trata de un problema químico en los sistemas de gestión del cerebro.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        "Las personas con TDAH nunca pueden prestar atención."
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                        Los períodos de hiper concentración son característicos en el TDAH.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        "No se puede tener TDAH, depresión, ansiedad y/u otros problemas psiquiátricos."
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                        Las personas con TDAH tienen seis veces mayor probabilidad de tener otro problema psiquiátrico o de aprendizaje.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        "Si no fuiste diagnosticado de niño, no puedes tener TDAH de adolescente o adulto."
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour">
+                    <div class="accordion-body">
+                        Solo el 25% de los adolescentes y adultos con TDAH fueron diagnosticados en su niñez.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        "El TDAH no es tan serio, exageran demasiado"
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive">
+                    <div class="accordion-body">
+                        Se sabe que las personas con TDAH se ven afectadas en diferentes ámbitos, por ejemplo: "Son 2 a 4 veces más propensos a tener problemas de aprendizaje y comprensión, caer en las adicciones o sufrir accidentes de auto."
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                        "Las personas con TDAH solo necesitan medicación para mejorar."
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix">
+                    <div class="accordion-body">
+                        La medicación puede reducir los síntomas, pero el tratamiento con especialistas (por ejemplo: la terapia de comportamiento) y el apoyo y acompañamiento psicoeducativo son fundamentales para un mejor desenvolvimiento.
+                    </div>
+                </div>
+            </div>
+        <br><br>
+
+        <div>
+        <h2 class="h2-1">Desarrollo de algunos síntomas del TDAH en la adolescencia</h2>
+        <ul>
+            <li class="li-color">1- La necesidad de movimiento constante se convierte en el sentimiento subjetivo de inquietud interna (motor interno)</li>
+            <li class="li-color">2- Al momento de hacer trabajos grupales pasan de no saber compartir, respetar los turnos y no ajustarse a los tiempos a preferir hacerlos indivualmente ya que les cuesta delegar y acatar la autoridad.</li>
+            <li class="li-color">3- La frecuencia con la que tienen conflictos con sus compañeros por no saber controlar sus emociones e impulsos termina en el desgaste y deterioro en las relacoines y convivencia por la falta de autogestión personal y autocontrol emocional.</li>
+            <li class="li-color">4- El rechazo por parte de sus colegas y el fracaso académico que afecta negativamente su autoestima puede terminar en la incapacidad de responder a las demandas de la vida en general y tener problemas emocionales constantes.</li>
+
+        </ul> 
+        </div>
+
+    </main>
+</section>
+
 <footer>
     <p class="footer-class">&copy; 2024 TDAH Todos los derechos reservados.</p>
 </footer>
+
 </body>
 </html>

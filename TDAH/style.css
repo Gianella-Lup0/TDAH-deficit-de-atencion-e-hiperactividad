@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.6rem; /* Restaurar tamaño de fuente general */
     text-decoration: none;
 }
 
@@ -28,6 +28,7 @@ nav a{
     align-items: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en la navegación */
 }
 
 nav a.activo {
@@ -40,53 +41,93 @@ a{
 
 p{
     padding: 2rem;
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en párrafos */
 }
 
 /* Info general de TDAH */
 .sec1{
-background-color: rgb(207 206 206 / 63%);
-padding: 20px;
-}
+    background-color: rgb(207 206 206 / 63%);
+    padding: 20px;
+    }
+    
+    main{
+        max-width: 1000px;
+        background-color: #f9f9f9cc;
+        margin-inline: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-main{
-    max-width: 1000px;
-    background-color: #f9f9f9cc;
-    margin-inline: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.parrafo{
+.h2{
     color:#151515;
     margin-left: 3rem;
     margin-right: 3rem;
+    padding: 2rem;
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en párrafos */  
 }
 
-.contenedor{
-    margin: 20px;
-    margin-top: 1rem;
-    margin-inline: 8rem;
-    padding: 1rem;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border: 3px solid rgba(130, 190, 194, 0.59);
+
+.h2-1{
+    color:#151515;
+    margin-left: 0rem;
+    font-size: 2rem; /* Restaurar tamaño de fuente en párrafos */  
 }
 
-.textcolor{
-    color: #4a4a4a;
-    padding: 1rem;
+
+    .parrafo{
+        color:#151515;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1.6rem; /* Restaurar tamaño de fuente en párrafos */
+    }
+    
+    .contenedor{
+        margin: 20px;
+        margin-top: 1rem;
+        margin-inline: 8rem;
+        padding: 1rem;
+        border-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 3px solid rgba(130, 190, 194, 0.59);
+    }
+    
+    .textcolor{
+        color: #4a4a4a;
+        padding: 1rem;
+    }
+    
+    .text-color{
+        color: #151515;
+        padding: 1rem;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .li-color{
+        color: #151515;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        list-style-type: none;
+    
+    }
+
+/* Acordeón de Bootstrap */
+.accordion {
+    max-width: 90%; /* Ajusta el ancho del acordeón */
+    margin: 0 auto; /* Centrar el acordeón */
 }
 
-.text-color{
-    color: #151515;
-    padding: 1rem;
+.accordion-button {
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en los botones del acordeón */
 }
 
-ul{
-    display: flex;
-    flex-direction: column;
+.accordion-body {
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en el contenido del acordeón */
 }
 
 .li-color{
@@ -94,7 +135,7 @@ ul{
     padding: 0.5rem;
     margin-left: 0.5rem;
     list-style-type: none;
-
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en los elementos de lista */
 }
 
 footer{
@@ -102,7 +143,10 @@ footer{
     text-align: center;
     padding: 1rem;
     color: #222222;
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en el footer */
 }
+
 .footer-class{
     padding: 0rem;
+    font-size: 1.6rem; /* Restaurar tamaño de fuente en el texto del footer */
 }

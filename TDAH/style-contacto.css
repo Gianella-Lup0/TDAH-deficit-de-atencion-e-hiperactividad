@@ -51,7 +51,6 @@ p{
     flex-direction: column;
     gap: 30px;
     padding: 20px;
-    border-radius: 10px;
 }
 
 h2 {
@@ -171,7 +170,7 @@ button[type="submit"]:hover {
 }
 
 /* Contenedor de hospitales */
-.hospital-container {
+.tres-container {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
@@ -207,6 +206,8 @@ button[type="submit"]:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/*Estilos del footer*/
 
 footer{
     background-color: rgb(207 206 206 / 43%);
