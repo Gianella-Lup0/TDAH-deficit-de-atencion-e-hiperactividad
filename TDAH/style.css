@@ -69,7 +69,9 @@ p{
 
 .h2-1{
     color:#151515;
-    margin-left: 0rem;
+    text-align: center;
+    margin-left: 2.2rem;
+    padding: 2rem;
     font-size: 2rem; /* Restaurar tamaño de fuente en párrafos */  
 }
 
@@ -107,7 +109,16 @@ p{
         display: flex;
         flex-direction: column;
     }
+ 
+    .ul-li{
+        color: #151515;
+        padding: 1.5rem;
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;
+        list-style-type: none;
     
+    }
+
     .li-color{
         color: #151515;
         padding: 0.5rem;
