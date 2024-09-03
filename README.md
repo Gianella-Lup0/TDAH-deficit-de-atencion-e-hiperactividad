@@ -1,7 +1,5 @@
 # Chicas en Tecnología 2024
-Grupo conformado por:
 - Gianella Lupo
-- Juliana Ortiz
 
 # Temática: Educación (TDAH, deficit de atencion e hiperactividad)
 Centers for Disease Control and Prevention (CDC)
@@ -12,9 +10,9 @@ Centers for Disease Control and Prevention (CDC)
 # Soluciones Tecnológicas para el TDAH en Estudiantes: Un Enfoque Integral
 ![1](https://github.com/Gianella-Lup0/TDAH-deficit-de-atencion-e-hiperactividad/assets/174157866/488a8597-9552-4144-9ff4-649fa086ddee)
 
-- Identificamos un problema: La falta de concienciación y recursos sobre el TDAH (Trastorno por Déficit de Atención e Hiperactividad) en estudiantes.
-- Definimos público objetivo: Jóvenes de 13 a 18 años que forman parte de la comunidad estudiantil de secundaria en Buenos Aires, abarcando una diversidad de escuelas y contextos socioeconómicos, con un enfoque en sus necesidades educativas y de apoyo psicológico.
-- Ideamos una solución: Crearemos un sitio informativo sobre el TDAH, proporcionando recursos educativos y estrategias prácticas para concientizar y apoyar a quienes lo visiten sobre el impacto del TDAH y cómo gestionarlo de manera efectiva.
+- Identificación de un problema: La falta de concienciación y recursos sobre el TDAH (Trastorno por Déficit de Atención e Hiperactividad) en estudiantes.
+- Definición público objetivo: Jóvenes de 13 a 18 años que forman parte de la comunidad estudiantil de secundaria en Buenos Aires, abarcando una diversidad de escuelas y contextos socioeconómicos, con un enfoque en sus necesidades educativas y de apoyo psicológico.
+- Idear una solución: Crearé un sitio informativo sobre el TDAH, proporcionando recursos educativos y estrategias prácticas para concientizar y apoyar a quienes lo visiten sobre el impacto del TDAH y cómo gestionarlo de manera efectiva.
 
 # Objetivo de Desarrollo Sostenible
 - 3 - Salud y bienestar
@@ -23,6 +21,7 @@ Centers for Disease Control and Prevention (CDC)
 
 # Diseñamos un prototipo:
 Herramientas: Wireframe o Miro para prototipos digitales, o lápiz y papel para un boceto inicial.
+Ejemplos:
 - Inicio: https://wireframe.cc/5FNUwp
 - Foros: https://wireframe.cc/uURfeH
 - Contacto: https://wireframe.cc/UpcjAh
@@ -42,7 +41,7 @@ Elementos clave del sitio:
 Esta iniciativa puede ayudar a aumentar la concientización y proporcionar soporte crucial para quienes se enfrentan al TDAH en Buenos Aires. 
 
 # Comportamientos aplicados en los archivos .js
-El comportamiento que estamos implementando mediante el código JavaScript en el foro tiene como objetivo manejar la adición de nuevos comentarios por parte de los usuarios de manera dinámica sin necesidad de recargar la página.
+El comportamiento que estoy implementando mediante el código JavaScript en el foro tiene como objetivo manejar la adición de nuevos comentarios por parte de los usuarios de manera dinámica sin necesidad de recargar la página.
 
 Captura del evento de envío del formulario:
 - Se utiliza document.getElementById('comment-form').addEventListener('submit', function(event) {...}) para añadir un event listener al formulario con el ID comment-form. Este listener captura el evento de "submit" (envío) del formulario.
