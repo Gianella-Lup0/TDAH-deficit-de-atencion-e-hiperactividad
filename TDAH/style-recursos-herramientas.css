@@ -67,7 +67,9 @@ h2 {
 
 .resource .style-li{
     margin: 10px;
-    padding: 15px; 
+    padding: 2px; 
+    border: none;
+    color: black;
 }
 
 .resource ul {
@@ -84,6 +86,10 @@ h2 {
 .resource li h4 {
     color: #4a4a4a;
     margin-bottom: 10px;
+}
+
+.resource-img {
+    align-items: center;
 }
 
 .resource li p {

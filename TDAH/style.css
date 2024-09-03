@@ -133,6 +133,10 @@ p{
     margin: 0 auto; /* Centrar el acordeón */
 }
 
+button.accordion-button{
+    font-size: 1.6rem;
+}
+
 .accordion-button {
     font-size: 1.6rem; /* Restaurar tamaño de fuente en los botones del acordeón */
 }
@@ -140,6 +144,7 @@ p{
 .accordion-body {
     font-size: 1.6rem; /* Restaurar tamaño de fuente en el contenido del acordeón */
 }
+
 
 .li-color{
     color: #151515;
